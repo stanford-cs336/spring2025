@@ -5,6 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <title>Stanford CS336 | Language Modeling from Scratch</title>
+    <style>
+      #shuffle-container {
+        visibility: hidden;
+      }
+    </style>
+    <noscript><style>
+      #shuffle-container {
+        visibility: visible;
+      }
+    </style></noscript>
+    <script>
+      // Shuffle CAs
+      document.addEventListener("DOMContentLoaded", function() {
+        const container = document.getElementById("shuffle-container");
+        const children = Array.from(container.children);
+
+        // 50% chance to shuffle
+        if (Math.random() <= 0.5) {
+          container.insertBefore(children[4], children[3]);
+        }
+
+        // Now unhide them
+        container.style.visibility = "visible";
+      });
+    </script>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- Google fonts -->
@@ -51,7 +76,7 @@
     <!-- Staff Info -->
     <div class="container sec" id="people">
       <!-- <div class="row"> -->
-      <div class="col">
+      <div class="col" id="shuffle-container">
         <h2>Course Staff</h2>
         <div class="instructor">
           <a href="https://thashim.github.io/">
