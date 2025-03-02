@@ -38,8 +38,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div id="unreleased-message">
+    <div id="unreleased-message" style="text-align: center;">
       This site is under active construction, and contents are subject to change.
+      <br>
+      The Spring 2024 offering of the course is <a href="https://stanford-cs336.github.io/spring2024/index.html">archived here</a>.
     </div>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -188,32 +190,37 @@
       <h2>Coursework</h2>
       <h3>Assignments</h3>
       <ul>
-        <li>
-          <a href="https://github.com/stanford-cs336/spring2025-assignment1-basics"><b>Assignment 1</b>: Basics</a> 
+        <li><b>Assignment 1</b>: Basics</li>
+        <!-- <li> -->
+          <!-- <a href="https://github.com/stanford-cs336/spring2025-assignment1-basics"><b>Assignment 1</b>: Basics</a>  -->
           <!-- [<a href="https://github.com/stanford-cs336/spring2025-assignment1-basics-leaderboard">leaderboard</a>] -->
-        </li>
+        <!-- </li> -->
         <ul>
           <li> Implement all of the components (tokenizer, model architecture, optimizer) necessary to train a standard Transformer language model. </li>
           <li> Train a minimal language model. </li>
         </ul>
-	      <li><a href="https://github.com/stanford-cs336/spring2025-assignment2-systems"><b>Assignment 2</b>: Systems</a></li>
+        <li><b>Assignment 2</b>: Systems</li>
+	      <!-- <li><a href="https://github.com/stanford-cs336/spring2025-assignment2-systems"><b>Assignment 2</b>: Systems</a></li> -->
 	      <ul>
           <li>Profile and benchmark the model and layers from Assignment 1, and optimize RMSNorm with a custom GPU kernel</li>
           <li>Build a memory-efficient, distributed version of the Assignment 1 model.</li>
         </ul>
-        <li><a href="https://github.com/stanford-cs336/spring2025-assignment3-scaling"><b>Assignment 3</b>: Scaling</a></li>
+        <li><b>Assignment 3</b>: Scaling</li>
+        <!-- <li><a href="https://github.com/stanford-cs336/spring2025-assignment3-scaling"><b>Assignment 3</b>: Scaling</a></li> -->
         <ul>
           <li> Query a training API to fit a scaling law and project model scaling. </li>
         </ul>
         <li>
-          <a href="https://github.com/stanford-cs336/spring2025-assignment4-data"><b>Assignment 4</b>: Data</a>
+          <b>Assignment 4</b>: Data
+          <!-- <a href="https://github.com/stanford-cs336/spring2025-assignment4-data"><b>Assignment 4</b>: Data</a> -->
           <!-- [<a href="https://github.com/stanford-cs336/spring2025-assignment4-data-leaderboard">leaderboard</a>] -->
         </li>
         <ul>
           <li> Convert raw Common Crawl dumps into usable pretraining data. </li>
           <li> Perform filtering and deduplication to improve model performance. </li>
         </ul>
-        <li><a href="https://github.com/stanford-cs336/spring2025-assignment5-alignment"><b>Assignment 5</b>: Alignment</li></a>
+        <li><b>Assignment 5</b>: Alignment</li>
+        <!-- <li><a href="https://github.com/stanford-cs336/spring2025-assignment5-alignment"><b>Assignment 5</b>: Alignment</li></a> -->
         <ul>
           <li> Annotate an instruction-tuning data for the model. </li>
           <li> Implement and apply RLHF to align the model. </li>
@@ -263,10 +270,10 @@
   <div class="container sec" id="schedule" style="margin-top:-20px">
     <br>
     <h2>Schedule</h2>
-    <p>
+    <!-- <p>
       Percy's lectures are all in Python and available at this
       <a href="https://github.com/stanford-cs336/spring2025-lectures">repository</a>.
-    </p>
+    </p> -->
 
     <table class="table">
       <colgroup>
@@ -292,13 +299,14 @@
           <td> 1 </td>
           <td> Tues April 1 </td>
           <td> Overview, tokenization (Percy) </td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_01.py">lecture_01.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_01.py">lecture_01.py</a> </td> -->
+          <td></td>
           <td>
             Assignment 1 <b><font color="green">out</font></b>
-            <br>
+            <!-- <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment1-basics">code</a>]
             <br>
-            [<a href="https://github.com/stanford-cs336/spring2025-assignment1-basics/blob/master/cs336_spring2025_assignment1_basics.pdf">preview</a>]
+            [<a href="https://github.com/stanford-cs336/spring2025-assignment1-basics/blob/master/cs336_spring2025_assignment1_basics.pdf">preview</a>] -->
             <!-- <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment1-basics-leaderboard">leaderboard</a>] -->
           </td>
@@ -308,7 +316,8 @@
           <td> 2 </td>
           <td>Thurs April 3</td>
           <td> Pytorch, resource accounting (Percy) </td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_02.py">lecture_02.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_02.py">lecture_02.py</a> </td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -316,7 +325,8 @@
           <td> 3 </td>
           <td> Tues April 8 </td>
           <td> Architectures, hyperparameters (Percy) </td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%203%20-%20architecture.pdf">lecture 3.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%203%20-%20architecture.pdf">lecture 3.pdf</a></td> -->
+          <td></td> 
           <td></td>
           <td></td>
         </tr>
@@ -324,7 +334,8 @@
           <td> 4 </td>
           <td>Thurs April 10</td>
           <td> Mixture of experts (Tatsu) </td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%204%20-%20details%20%2B%20MoEs.pdf">lecture 4.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%204%20-%20details%20%2B%20MoEs.pdf">lecture 4.pdf</a></td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -332,7 +343,8 @@
           <td> 5 </td>
           <td> Tues April 15 </td>
           <td>GPUs (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%205%20-%20GPUs.pdf">lecture 5.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%205%20-%20GPUs.pdf">lecture 5.pdf</a></td> -->
+          <td></td>
           <td>Assignment 1 <b><font color="red">due</font></b></td>
           <td></td>
         </tr>
@@ -340,12 +352,13 @@
           <td> 6 </td>
           <td>Thurs April 17</td>
           <td>Kernels, Triton (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_06.py">lecture_06.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_06.py">lecture_06.py</a> </td> -->
+          <td></td>
           <td>Assignment 2 <b><font color="green">out</font></b>
-            <br>
+            <!-- <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment2-systems">code</a>]
             <br>
-            [<a href="https://github.com/stanford-cs336/spring2025-assignment2-systems/blob/master/cs336_spring2025_assignment2_systems.pdf">preview</a>]
+            [<a href="https://github.com/stanford-cs336/spring2025-assignment2-systems/blob/master/cs336_spring2025_assignment2_systems.pdf">preview</a>] -->
 	        </td>
           <td></td>
         </tr>
@@ -353,7 +366,8 @@
           <td> 7 </td>
           <td>Tues April 22 </td>
           <td>Parallelism (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%207%20-%20Parallelism%20basics.pdf">lecture 7.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%207%20-%20Parallelism%20basics.pdf">lecture 7.pdf</a></td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -361,7 +375,8 @@
           <td> 8 </td>
           <td>Thurs April 24</td>
           <td>Parallelism (Percy)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_08.py">lecture_08.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_08.py">lecture_08.py</a> </td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -369,7 +384,8 @@
           <td> 9 </td>
           <td>Tues April 29</td>
           <td>Scaling laws (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%209%20-%20Scaling%20laws%20basics.pdf">lecture 9.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%209%20-%20Scaling%20laws%20basics.pdf">lecture 9.pdf</a></td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -377,15 +393,16 @@
           <td> 10 </td>
           <td>Thurs May 1</td>
           <td>Scaling laws (Tatsu)</td>
-          <td><a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2010%20-%20Scaling%20details.pdf">lecture 10.pdf</a></td>
+          <!-- <td><a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2010%20-%20Scaling%20details.pdf">lecture 10.pdf</a></td> -->
+          <td></td>
           <td>
             Assignment 2 <b><font color="red">due</font></b>
             <br/>
             Assignment 3 <b><font color="green">out</font></b>
-            <br>
+            <!-- <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment3-scaling">code</a>]
             <br>
-            [<a href="https://github.com/stanford-cs336/spring2025-assignment3-scaling/blob/master/cs336_spring2025_assignment3_scaling.pdf">preview</a>]
+            [<a href="https://github.com/stanford-cs336/spring2025-assignment3-scaling/blob/master/cs336_spring2025_assignment3_scaling.pdf">preview</a>] -->
           </td>
           <td></td>
         </tr>
@@ -393,7 +410,8 @@
           <td> 11 </td>
           <td>Tues May 6</td>
           <td>Data (Percy)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_11.py">lecture_11.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_11.py">lecture_11.py</a> </td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -401,7 +419,8 @@
           <td> 12 </td>
           <td>Thurs May 8</td>
           <td>Data (Percy)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_12.py">lecture_12.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_12.py">lecture_12.py</a> </td> -->
+          <td></td>
           <td>Assignment 3 <b><font color="red">due</font></b></td>
           <td></td>
         </tr>
@@ -412,12 +431,12 @@
           <td></td>
           <td>
             Assignment 4 <b><font color="green">out</font></b>
-            <br>
+            <!-- <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment4-data">code</a>]
             <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment4-data/blob/master/cs336_spring2025_assignment4_data.pdf">preview</a>]
             <br>
-            [<a href="https://github.com/stanford-cs336/spring2025-assignment4-data-leaderboard">leaderboard</a>]
+            [<a href="https://github.com/stanford-cs336/spring2025-assignment4-data-leaderboard">leaderboard</a>] -->
           </td>
           <td></td>
         </tr>
@@ -425,7 +444,8 @@
           <td> 13 </td>
           <td>Tues May 13</td>
           <td>Data (Percy)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_13.py">lecture_13.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_13.py">lecture_13.py</a> </td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -433,7 +453,8 @@
           <td> 14 </td>
           <td>Thurs May 15</td>
           <td>Data (Percy)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_14.py">lecture_14.py</a> </td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/lecture_14.py">lecture_14.py</a> </td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -441,7 +462,8 @@
           <td> 15 </td>
           <td>Tues May 20</td>
           <td>Alignment (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2015%20-%20Alignment%20by%20SFT.pdf">lecture 15.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2015%20-%20Alignment%20by%20SFT.pdf">lecture 15.pdf</a></td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -449,7 +471,8 @@
           <td> 16 </td>
           <td>Thurs May 22</td>
           <td>Alignment (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2016%20-%20Alignment%20by%20RLHF.pdf">lecture 16.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2016%20-%20Alignment%20by%20RLHF.pdf">lecture 16.pdf</a></td> -->
+          <td></td>
           <td></td>
           <td></td>
         </tr>
@@ -465,13 +488,14 @@
           <td> 17 </td>
           <td>Thurs May 29</td>
           <td>Alignment, evals (Tatsu)</td>
-          <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2017%20-%20Evals.pdf">lecture 17.pdf</a></td>
+          <!-- <td> <a href="https://github.com/stanford-cs336/spring2025-lectures/blob/main/nonexecutable/Lecture%2017%20-%20Evals.pdf">lecture 17.pdf</a></td> -->
+          <td></td>
           <td>
             Assignment 5 <b><font color="green">out</font></b>
-            <br>
+            <!-- <br>
             [<a href="https://github.com/stanford-cs336/spring2025-assignment5-alignment">code</a>]
             <br>
-            [<a href="https://github.com/stanford-cs336/spring2025-assignment5-alignment/blob/master/cs336_spring2025_assignment5_alignment.pdf">preview</a>]
+            [<a href="https://github.com/stanford-cs336/spring2025-assignment5-alignment/blob/master/cs336_spring2025_assignment5_alignment.pdf">preview</a>] -->
           </td>
           <td></td>
         </tr>
